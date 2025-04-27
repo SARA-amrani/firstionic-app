@@ -1,0 +1,7 @@
+{
+  "name": "firstionic-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
