@@ -1,0 +1,71 @@
+<ion-header >
+  <ion-toolbar color="success">
+    <ion-title>Register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>What do you want to do with the recyclable waste ?</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+        <ion-radio-group>
+          <ion-item>
+            <ion-label>I want to BUY it</ion-label>
+            <ion-radio value="CLIENT" slot="start"></ion-radio>
+          </ion-item>
+          <ion-item>
+            <ion-label>I want to SELL it</ion-label>
+            <ion-radio value="PARTNER" slot="start"></ion-radio>
+          </ion-item>
+        </ion-radio-group>
+    </ion-card-content>    
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Contact</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item lines="none" class="input-item">
+        <ion-input position="floating" placeholder="Name" type="text"></ion-input>
+      </ion-item>
+      <ion-item lines="none" class="input-item">
+        <ion-input position="floating" placeholder="Email" type="email"></ion-input>
+      </ion-item>
+      <ion-item lines="none" class="input-item">
+        <ion-input position="floating" placeholder="Password" type="password"></ion-input>
+      </ion-item>
+      <ion-item lines="none" class="input-item">
+        <ion-input position="floating" placeholder="Confirm Password" type="password"></ion-input>
+      </ion-item>
+      <ion-item lines="none" class="input-item">
+        <ion-input position="floating" placeholder="Phone number" type="tel"></ion-input>
+      </ion-item>
+    </ion-card-content>    
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Address information</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item lines="none" class="input-item">
+        <ion-input position="floating" placeholder="Address" type="text"></ion-input>
+      </ion-item>
+      <ion-item lines="none" class="input-item">
+        <ion-input position="floating" placeholder="Number" type="tel"></ion-input>
+      </ion-item>
+      <ion-item lines="none" class="input-item">
+        <ion-input position="floating" placeholder="Neighborhood" type="text"></ion-input>
+      </ion-item>
+      <ion-item lines="none" class="input-item">
+        <ion-input position="floating" placeholder="Complement" type="text"></ion-input>
+      </ion-item>
+      <ion-item lines="none" class="input-item">
+        <ion-input position="floating" placeholder="City" type="text"></ion-input>
+      </ion-item>
+    </ion-card-content>    
+  </ion-card>
+  <ion-button size="full" color="light">Register</ion-button>
+
+</ion-content>
